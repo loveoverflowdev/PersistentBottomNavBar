@@ -57,7 +57,7 @@ class BottomNavStyle3 extends StatelessWidget {
                                             color: isSelected
                                                 ? (item.activeColorSecondary ??
                                                     item.activeColorPrimary)
-                                                : item.inactiveColorPrimary)
+                                                : item.inactiveColorPrimary).color
                                         as Color?
                                     : isSelected
                                         ? (item.activeColorSecondary ??
